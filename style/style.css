@@ -7,6 +7,11 @@ body {
     font-weight: 200;
     font-style: normal;
 }
+@media (min-width: 992px) {
+    .ratio-lg-18-9 {
+        --bs-aspect-ratio: 50%; 
+    }
+}
 
 /* ====================================
 Header
@@ -24,4 +29,11 @@ CTA btn
 .cta-btn {
     width: 120px;
     color: white;
+}
+
+/* ====================================
+Thumb hoover
+==================================== */
+.thumb-hoover {
+
 }

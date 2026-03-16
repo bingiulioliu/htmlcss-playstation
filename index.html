@@ -14,11 +14,11 @@
 
 <body>
     <!-- HEADER: Sony bar + P menu -->
-    <header>
+    <header class="sticky-top">
         <div class="sony-logo bg-black d-flex justify-content-end align-items-center p-2">
             <img src="img/sony_logo.svg" alt="Logo Sony">
         </div>
-        <div class="ps-nav">
+        <div class="ps-nav bg-light">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -110,21 +110,27 @@
     <main>
         <!-- Highlight immagine in prima pagina -->
         <div class="highlight">
-            <div class="card text-white border-0 overflow-hidden ratio ratio-1x1 ">
+            <div class="card text-white border-0 overflow-hidden ratio ratio-1x1 ratio-lg-18-9">
                 <img src="img/jumbo-bg.png" class="card-img object-fit-cover" alt="returnal bg">
                 <div class="card-img-overlay d-flex flex-column justify-content-end fw-light gap-3">
-                    <img class="opacity-75 align-items-left col-7" src="img/returnal-hero-banner-logo.png" alt="returnal banner">
+                    <img class="opacity-75 align-items-left col-7" src="img/returnal-hero-banner-logo.png"
+                        alt="returnal banner">
                     <h2 class="card-title">Rompi il cerchio</h5>
-                    <p class="card-text">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
-                    <a href="#" class="btn bg-danger rounded-pill cta-btn mb-4">Acquista ora</a>
+                        <p class="card-text">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita
+                            in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
+                        <a href="#" class="btn bg-danger rounded-pill cta-btn mb-4">Acquista ora</a>
                 </div>
             </div>
             <!-- Lista immagini per cambio highligth (in futuro) -->
-            <div class="container">
-                <div class="row d-flex justify-content-evenly">
-                    <div class="col-6">
-
+            <div class="container mt-4">
+                <div class=" row d-flex justify-content-evenly">
+                    <div class=" col-6 thumb-hoover">
+                        <a href="#"><img class="w-100 rounded-4" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal thumb"></a>
                     </div>
+                    <div class=" col-6 thumb-hoover">
+                        <a href="#"><img class="w-100 rounded-4" src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal thumb"></a>
+                    </div>
+
                 </div>
             </div>
         </div>
