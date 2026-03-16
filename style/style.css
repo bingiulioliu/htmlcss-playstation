@@ -1,6 +1,12 @@
 body {
     font-family: 'PlayStation', sans-serif;
 }
+@font-face {
+    font-family: 'PlayStation';
+    src: url('https://fonts.cdnfonts.com/css/playstation') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
 
 /* ====================================
 Header
@@ -10,4 +16,12 @@ Header
 }
 .sony-logo img {
     height: 15px;
+}
+
+/* ====================================
+CTA btn
+==================================== */
+.cta-btn {
+    width: 120px;
+    color: white;
 }
