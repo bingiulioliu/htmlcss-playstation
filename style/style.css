@@ -44,6 +44,8 @@ Immagini
 /* ====================================
 PS5 Active
 ==================================== */
-.ps-hardwares {
-    
+.ps-hardwares div:first-child {
+    opacity: 1 !important;
+    border-bottom: 2px solid #0070d1 !important;
+
 }
