@@ -71,3 +71,17 @@ PS5 Active
 .ps-plus-banner {
     min-height: 300px;
 }
+
+
+.logo-small {
+    height: 1.2em; 
+    width: auto;
+}
+.logo-md {
+    height: 3em; 
+    width: auto;
+}
+.logo-big {
+    height: 5em; 
+    width: auto;
+}
